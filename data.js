@@ -641,6 +641,7 @@ window.PAC_CONFIG = {
   "commanditaire": "Sonia Ferracci",
   "entreprise": "Lumio Health",
   "dispositif": "PAC",
+  "accroche": "Tu es mandaté·e par <strong>Sonia Ferracci, Directrice Marketing de Lumio Health</strong>, pour cadrer le projet <em>Lumio Pulse</em> — une plateforme de gestion du stress B2B destinée aux mutuelles et grands comptes. L'analyse de marché est posée. Il faut maintenant passer à l'acte&nbsp;: définir le périmètre, construire le budget, constituer l'équipe et rédiger les spécifications. Jakob Rein (Northgate Capital) attend un dossier de cadrage solide pour le prochain board. Tu as accès aux emails de l'équipe, aux retours terrain de Camille Ott, aux spécifications techniques préliminaires et au brief Sonia. <em>Le projet existe sur le papier. À toi de le rendre réel.</em>",
   "note_reflexive": false,
   "temps": [
     {
