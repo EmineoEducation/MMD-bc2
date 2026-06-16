@@ -552,9 +552,73 @@ window.LUMIO_DATA = {
     "footer": "<em>1 jour fictif ≈ 11 minutes réelles · ratio ×74</em>"
   },
   "trash": {
-    "title": "La corbeille est vide.",
-    "body": "Mais l'idée est bonne. La plupart des consultants commencent par jeter quelque chose."
-  },
+  "items": [
+    {
+      "name": "planning_v0.mpp",
+      "icon": "📊",
+      "size": "980 Ko",
+      "date": "sept.",
+      "isEgg": false
+    },
+    {
+      "name": "notes_perso.txt",
+      "icon": "📄",
+      "size": "4 Ko",
+      "date": "sept.",
+      "isEgg": false
+    },
+    {
+      "name": "Capture WhatsApp — Yassine.png",
+      "icon": "🖼",
+      "size": "188 Ko",
+      "date": "cadrage",
+      "isEgg": true
+    }
+  ],
+  "egg": {
+    "contact": "Yassine Morel",
+    "status": "en ligne",
+    "meKey": "camille",
+    "badge": "Conversation non destinée au dossier",
+    "messages": [
+      {
+        "from": "camille",
+        "text": "Jakob a encore rajouté des exigences ce matin… le module reporting direction, c'était pas dans le scope initial",
+        "time": "09:12"
+      },
+      {
+        "from": "camille",
+        "text": "si on dit oui à tout on explose le budget et Théo va nous tuer. Si on dit non on perd le contrat. Je sais pas comment Sonia va gérer ça au CODIR",
+        "time": "09:13"
+      },
+      {
+        "from": "yassine",
+        "text": "et mes personas, elle les a même pas lus. j'ai passé 3 semaines dessus",
+        "time": "09:21"
+      },
+      {
+        "from": "yassine",
+        "text": "le persona handicap que j'avais commencé il est toujours dans mes brouillons. personne l'a demandé",
+        "time": "09:22"
+      },
+      {
+        "from": "camille",
+        "text": "attends, le persona accessibilité est pas dans les user stories ?!",
+        "time": "09:24"
+      },
+      {
+        "from": "yassine",
+        "text": "non. il a sauté au cadrage. avec le scope qui bouge tout le temps, il est passé à la trappe",
+        "time": "09:25"
+      },
+      {
+        "from": "camille",
+        "text": "faut le remettre. on peut pas livrer des US sans le persona handicap, surtout sur du B2B santé",
+        "time": "09:27"
+      }
+    ]
+  }
+},
   "slack": {
     "workspace": "Lumio Health",
     "channels": [
