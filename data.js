@@ -699,6 +699,26 @@ window.LUMIO_DATA = {
 
 window.PAC_CONFIG = {
   "bloc": "bc2",
+  accroche_namescreen: {
+    "subtitle": "Cadrer le projet digital",
+    "role": "consultant·e digital externe",
+    "intro": "Tu es {{STUDENT}}, consultant·e digital chez Lumio Health pour cadrer le projet Lumio Pulse — une plateforme B2B de gestion du stress. Besoins, périmètre, budget, équipe, planning, cahier des charges : tu produis le cadrage du projet digital (E2) que Sonia Ferracci portera en interne.",
+    "ratio_label": "3 semaines dans la vraie vie",
+    "regles": [
+      {
+        "ico": "📄",
+        "txt": "Tout ce que tu sais, c'est dans les documents de cadrage du poste de mission."
+      },
+      {
+        "ico": "🤐",
+        "txt": "Le jury teste la cohérence budget/périmètre/planning et la qualité de ton cahier des charges."
+      },
+      {
+        "ico": "💬",
+        "txt": "Quand tu as une hypothèse solide → Slack → ta commanditaire. Sa réaction débloque la suite."
+      }
+    ]
+  },
   "titre": "Elaborer un projet digital au service d'un commanditaire",
   "epreuve": "E2. Cadrage d'un projet digital",
   "deadline": "14 mars 2025 · 18h00",
