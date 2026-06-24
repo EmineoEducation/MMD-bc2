@@ -360,17 +360,13 @@ window.LUMIO_DATA = {
             "kind": "mail",
             "name": "Lancement officiel du projet",
             "app": "mail",
-            "props": {
-              "docId": "DOC-01"
-            }
+            "props": { "openId": "DOC-01" }
           },
           {
             "kind": "pdf",
             "name": "CR réunion de lancement",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-02"
-            }
+            "props": { "openDoc": "DOC-02" }
           }
         ]
       },
@@ -383,17 +379,13 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Exigences contractuelles Northgate pour",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-03"
-            }
+            "props": { "openDoc": "DOC-03" }
           },
           {
             "kind": "note",
             "name": "Enveloppe budgétaire maximale Lumio",
             "app": "notes",
-            "props": {
-              "docId": "DOC-04"
-            }
+            "props": { "openNote": "DOC-04" }
           }
         ]
       },
@@ -406,17 +398,13 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Personas Lumio Pulse —",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-05"
-            }
+            "props": { "openDoc": "DOC-05" }
           },
           {
             "kind": "mail",
             "name": "Retour sur la proposition",
             "app": "mail",
-            "props": {
-              "docId": "DOC-06"
-            }
+            "props": { "openId": "DOC-06" }
           }
         ]
       },
@@ -429,9 +417,7 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Spécifications API wearables Lumio",
             "app": "pdf",
-            "props": {
-              "docId": "DOC-07"
-            }
+            "props": { "openDoc": "DOC-07" }
           }
         ]
       },
@@ -444,9 +430,7 @@ window.LUMIO_DATA = {
             "kind": "note",
             "name": "Arbitrages finaux avant présentation",
             "app": "notes",
-            "props": {
-              "docId": "DOC-08"
-            }
+            "props": { "openNote": "DOC-08" }
           }
         ]
       },
@@ -456,46 +440,46 @@ window.LUMIO_DATA = {
         "icon": "🪪",
         "items": [
           {
-            "kind": "html",
-            "name": "Théo Marczak — CEO",
-            "app": "browser",
-            "props": {
-              "url": "portraits/portrait_theo_marczak.html"
-            }
+                    "kind": "html",
+                    "name": "Théo Marczak — CEO",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "theo"
+                    }
           },
           {
-            "kind": "html",
-            "name": "Sonia Ferracci — Dir. Marketing",
-            "app": "browser",
-            "props": {
-              "url": "portraits/portrait_sonia_ferracci.html"
-            }
+                    "kind": "html",
+                    "name": "Sonia Ferracci — Dir. Marketing",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "sonia"
+                    }
           },
           {
-            "kind": "html",
-            "name": "Camille Ott — Partenariats B2B",
-            "app": "browser",
-            "props": {
-              "url": "portraits/portrait_camille_ott.html"
-            }
+                    "kind": "html",
+                    "name": "Camille Ott — Partenariats B2B",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "camille"
+                    }
           },
           {
-            "kind": "html",
-            "name": "Yassine Morel — Content Manager",
-            "app": "browser",
-            "props": {
-              "url": "portraits/portrait_yassine_morel.html"
-            }
+                    "kind": "html",
+                    "name": "Yassine Morel — Content Manager",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "yassine"
+                    }
           },
           {
-            "kind": "html",
-            "name": "Jakob Rein — Northgate Capital",
-            "app": "browser",
-            "props": {
-              "url": "portraits/portrait_jakob_rein.html"
-            }
+                    "kind": "html",
+                    "name": "Jakob Rein — Northgate Capital",
+                    "app": "browser",
+                    "props": {
+                              "openPortrait": "jakob"
+                    }
           }
-        ]
+          ]
       }
     },
     "order": [
@@ -696,6 +680,14 @@ window.LUMIO_DATA = {
     "body": "Le cabinet Gartner l'anticipait dès 2023 : 2025 serait l'année de la consolidation du marché des plateformes de monitoring du stress et de la santé mentale en entreprise. Force est de constater que la prédiction se vérifie avec une brutalité que peu d'observateurs avaient anticipée. En l'espace de six semaines, trois opérations majeures ont redessiné le paysage concurrentiel européen. L'allemand Humanoo vient de lever 40 millions d'euros en série B, tandis que la britannique Thrive at Work a signé un partenariat exclusif avec Workday pour intégrer ses modules directement dans les SIRH de 8 000 entreprises clientes. Côté réglementaire, la pression s'intensifie également : la directive européenne sur la santé psychologique au travail, dont la transposition en droit français est attendue avant fin 2025, contraint désormais les entreprises de plus de 250 salariés à produire des indicateurs mesurables de prévention des risques psychosociaux. « Les DRH que nous accompagnons ne cherchent plus à être convaincus, ils cherchent un outil opérationnel, conforme RGPD, déployable en moins de trois mois », confie Laure Steinberg, associée chez Mercer France. Dans ce contexte, les acteurs qui ne disposent pas d'une plateforme documentée, certifiée et prête à l'intégration risquent tout simplement d'être écartés des appels d'offres dès le second semestre."
   }
 };
+
+
+// ── Correctifs RETEX juin 2026 ── injectés après LUMIO_DATA ──────────────
+if (!window.LUMIO_DATA.finder.folders.mission) { window.LUMIO_DATA.finder.folders.mission = {"title": "Mission — Dossier complet", "sidebar": "Mission", "icon": "🗂", "items": [{"kind": "folder", "name": "Acte 1 — Ancrage", "folder": "acte1"}, {"kind": "folder", "name": "Acte 2 — Entrée affaire", "folder": "acte2"}, {"kind": "folder", "name": "Acte 3 — Diagnostic", "folder": "acte3"}, {"kind": "folder", "name": "Acte 4 — Production", "folder": "acte4"}, {"kind": "folder", "name": "Acte 5 — Réflexion", "folder": "acte5"}, {"kind": "folder", "name": "Portraits équipe", "folder": "portraits"}]}; }
+if (!window.LUMIO_DATA.finder.order.includes('mission')) { var _o=window.LUMIO_DATA.finder.order; window.LUMIO_DATA.finder.order = ['guide','mission',..._o.filter(x=>x!=='guide')]; }
+if (!window.LUMIO_DATA.portraits || !window.LUMIO_DATA.portraits.length) { window.LUMIO_DATA.portraits = [{"key": "theo", "id": "portrait-theo", "title": "Théo Marczak — CEO", "tabTitle": "Théo Marczak", "favicon": "T", "faviconColor": "#0a3d62", "host": "lusinedigitale.fr", "url": "lusinedigitale.fr/portrait/theo-marczak", "file": "portraits/portrait_theo_marczak.html"}, {"key": "sonia", "id": "portrait-sonia", "title": "Sonia Ferracci — Dir. Marketing", "tabTitle": "Sonia Ferracci", "favicon": "S", "faviconColor": "#a02020", "host": "cbnews.fr", "url": "cbnews.fr/portrait/sonia-ferracci", "file": "portraits/portrait_sonia_ferracci.html"}, {"key": "camille", "id": "portrait-camille", "title": "Camille Ott — Partenariats B2B", "tabTitle": "Camille Ott", "favicon": "C", "faviconColor": "#1a6641", "host": "actionco.fr", "url": "actionco.fr/portrait/camille-ott", "file": "portraits/portrait_camille_ott.html"}, {"key": "yassine", "id": "portrait-yassine", "title": "Yassine Morel — Content Manager", "tabTitle": "Yassine Morel", "favicon": "Y", "faviconColor": "#e85d3a", "host": "maddyness.com", "url": "maddyness.com/portrait/yassine-morel", "file": "portraits/portrait_yassine_morel.html"}, {"key": "jakob", "id": "portrait-jakob", "title": "Jakob Rein — Northgate Capital", "tabTitle": "Jakob Rein", "favicon": "J", "faviconColor": "#1b3a6b", "host": "forbes.fr", "url": "forbes.fr/portrait/jakob-rein", "file": "portraits/portrait_jakob_rein.html"}]; }
+if (!window.LUMIO_DATA.desktopIcons) { window.LUMIO_DATA.desktopIcons = [{"app": "finder", "folder": "mission", "label": "Mission", "kind": "folder"}, {"app": "finder", "folder": "portraits", "label": "Portraits équipe", "kind": "folder"}, {"app": "mail", "label": "Mail", "kind": "app"}, {"app": "slack", "label": "Slack", "kind": "app"}, {"app": "notepad", "label": "Mes notes.txt", "kind": "app"}]; }
+if (!window.LUMIO_DATA.voiceMemos || !window.LUMIO_DATA.voiceMemos.length) { window.LUMIO_DATA.voiceMemos = [{"title": "Débrief RDV — partenaire stratégique", "author": "Camille Ott", "role": "Responsable partenariats B2B", "date": "Mars 2025", "context": "mémo dicté après réunion", "durationSec": 44, "transcript": "Réunion ce matin avec le partenaire clé. Le message principal : ils veulent avancer, mais pas sans voir la certification MDR progresser. Côté budget, la fourchette est réaliste — ils sont prêts à discuter. Ce qui bloque, c'est la souveraineté des données : hébergement France, audit annuel, accès self-service. Je leur ai dit qu'on pouvait s'engager sur ce point d'ici fin mars. À valider avec Théo avant que je confirme."}, {"title": "Note terrain — signaux B2B semaine", "author": "Camille Ott", "role": "Responsable partenariats B2B", "date": "Avril 2025", "context": "mémo dicté en déplacement", "durationSec": 36, "transcript": "Trois signaux forts cette semaine. Un : les DSI bloquent systématiquement sur RGPD dès qu'on parle de wearable — sans hébergement local certifié, on ne passe pas. Deux : le sujet est remonté au niveau comité de direction dans deux entreprises sur trois — la décision n'est plus RH, elle est stratégique. Trois : les mutuelles commencent à nous solliciter directement pour des offres packagées. C'est un canal qu'on n'avait pas prévu et qui mérite qu'on y consacre du temps."}]; }
 
 window.PAC_CONFIG = {
   "bloc": "bc2",
