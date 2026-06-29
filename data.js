@@ -360,13 +360,17 @@ window.LUMIO_DATA = {
             "kind": "mail",
             "name": "Lancement officiel du projet",
             "app": "mail",
-            "props": { "openId": "DOC-01" }
+            "props": {
+              "docId": "DOC-01"
+            }
           },
           {
             "kind": "pdf",
             "name": "CR réunion de lancement",
             "app": "pdf",
-            "props": { "openDoc": "DOC-02" }
+            "props": {
+              "docId": "DOC-02"
+            }
           }
         ]
       },
@@ -379,13 +383,17 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Exigences contractuelles Northgate pour",
             "app": "pdf",
-            "props": { "openDoc": "DOC-03" }
+            "props": {
+              "docId": "DOC-03"
+            }
           },
           {
             "kind": "note",
             "name": "Enveloppe budgétaire maximale Lumio",
             "app": "notes",
-            "props": { "openNote": "DOC-04" }
+            "props": {
+              "docId": "DOC-04"
+            }
           }
         ]
       },
@@ -398,13 +406,17 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Personas Lumio Pulse —",
             "app": "pdf",
-            "props": { "openDoc": "DOC-05" }
+            "props": {
+              "docId": "DOC-05"
+            }
           },
           {
             "kind": "mail",
             "name": "Retour sur la proposition",
             "app": "mail",
-            "props": { "openId": "DOC-06" }
+            "props": {
+              "docId": "DOC-06"
+            }
           }
         ]
       },
@@ -417,7 +429,9 @@ window.LUMIO_DATA = {
             "kind": "pdf",
             "name": "Spécifications API wearables Lumio",
             "app": "pdf",
-            "props": { "openDoc": "DOC-07" }
+            "props": {
+              "docId": "DOC-07"
+            }
           }
         ]
       },
@@ -430,7 +444,9 @@ window.LUMIO_DATA = {
             "kind": "note",
             "name": "Arbitrages finaux avant présentation",
             "app": "notes",
-            "props": { "openNote": "DOC-08" }
+            "props": {
+              "docId": "DOC-08"
+            }
           }
         ]
       },
@@ -440,46 +456,46 @@ window.LUMIO_DATA = {
         "icon": "🪪",
         "items": [
           {
-                    "kind": "html",
-                    "name": "Théo Marczak — CEO",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "theo"
-                    }
+            "kind": "html",
+            "name": "Théo Marczak — CEO",
+            "app": "browser",
+            "props": {
+              "url": "portraits/portrait_theo_marczak.html"
+            }
           },
           {
-                    "kind": "html",
-                    "name": "Sonia Ferracci — Dir. Marketing",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "sonia"
-                    }
+            "kind": "html",
+            "name": "Sonia Ferracci — Dir. Marketing",
+            "app": "browser",
+            "props": {
+              "url": "portraits/portrait_sonia_ferracci.html"
+            }
           },
           {
-                    "kind": "html",
-                    "name": "Camille Ott — Partenariats B2B",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "camille"
-                    }
+            "kind": "html",
+            "name": "Camille Ott — Partenariats B2B",
+            "app": "browser",
+            "props": {
+              "url": "portraits/portrait_camille_ott.html"
+            }
           },
           {
-                    "kind": "html",
-                    "name": "Yassine Morel — Content Manager",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "yassine"
-                    }
+            "kind": "html",
+            "name": "Yassine Morel — Content Manager",
+            "app": "browser",
+            "props": {
+              "url": "portraits/portrait_yassine_morel.html"
+            }
           },
           {
-                    "kind": "html",
-                    "name": "Jakob Rein — Northgate Capital",
-                    "app": "browser",
-                    "props": {
-                              "openPortrait": "jakob"
-                    }
+            "kind": "html",
+            "name": "Jakob Rein — Northgate Capital",
+            "app": "browser",
+            "props": {
+              "url": "portraits/portrait_jakob_rein.html"
+            }
           }
-          ]
+        ]
       }
     },
     "order": [
@@ -665,7 +681,7 @@ window.LUMIO_DATA = {
       "date": "11 mars 2025",
       "headline": "Bien-être au travail : les plateformes digitales de monitoring séduisent les DRH, mais peinent encore à rassurer sur la conformité",
       "lede": "Face à la montée des risques psychosociaux, les solutions numériques de suivi du stress en entreprise multiplient les déploiements B2B. Pourtant, entre exigences RGPD, obligations d'accessibilité et défiance des salariés, le passage à l'échelle reste semé d'embûches.",
-      "illustration": "portraits/Theo_Marczak.png",
+      "illustration": "PHOTO ILLUSTRATIVE",
       "body": "En 2024, le marché européen des solutions de bien-être au travail à composante digitale a franchi le cap des 2,4 milliards d'euros, selon le cabinet Frost & Sullivan. Une croissance portée en large partie par l'essor des wearables couplés à des tableaux de bord RH, permettant aux directions des ressources humaines de visualiser en temps réel les indicateurs de charge cognitive et de stress de leurs équipes.\n\nMais derrière les promesses commerciales, les acheteurs institutionnels affûtent leurs critères. « Nous recevons désormais des appels d'offres avec des grilles d'évaluation de dix pages sur la seule question de la conformité RGPD », confie Laure Desmet, directrice des achats chez un grand groupe industriel français, lors du salon Préventica Paris, début mars. Les données biométriques collectées par ces dispositifs entrent en effet dans la catégorie des données sensibles au sens de l'article 9 du règlement européen — ce qui impose des garanties techniques et juridiques particulièrement strictes.\n\nL'accessibilité numérique constitue un autre point de friction grandissant. Depuis l'entrée en vigueur progressive de la directive européenne sur l'accessibilité des produits et services (European Accessibility Act), dont les échéances pratiques s'étendent jusqu'en juin 2025, les acheteurs publics et de nombreuses grandes entreprises intègrent des clauses de conformité WCAG 2.1 niveau AA dans leurs contrats. « Un outil que 15 % de nos collaborateurs ne peuvent pas utiliser correctement à cause d'un handicap visuel ou cognitif n'est pas un outil de bien-être, c'est un outil d'exclusion », tranche le DRH d'un groupe de distribution contacté par L'Usine Digitale.\n\nCes contraintes font peser une pression inédite sur les éditeurs, souvent des startups en phase de croissance dont les roadmaps produit ont été bâties à une époque où ces sujets restaient secondaires. Plusieurs acteurs du secteur reconnaissent, sous couvert d'anonymat, avoir sous-estimé le coût d'une mise en conformité complète — parfois évalué entre 80 000 et 200 000 euros selon la complexité de la plateforme.\n\nLa question du cadrage initial du projet digital s'impose donc comme un moment stratégique. Les équipes qui structurent en amont un cahier des charges précis, intégrant dès la phase de conception les contraintes réglementaires, les profils utilisateurs réels et une estimation budgétaire réaliste, évitent des refontes coûteuses en cours de développement. « Le document de cadrage n'est plus une formalité administrative, c'est le premier livrable qui engage la crédibilité d'un fournisseur devant un grand compte », résume Pierre-Alexandre Thévenot, consultant senior chez Wavestone.\n\nDu côté des investisseurs, l'appétit reste vif mais les attentes se précisent. Les fonds spécialisés en santé numérique exigent désormais des preuves de traction B2B solides avant d'accompagner un passage à l'échelle, et regardent de très près la capacité des fondateurs à transformer une base de clients existante en références contractuelles structurées. Le seul argument du wearable innovant ne suffit plus à convaincre un comité d'investissement en 2025."
     }
   ],
@@ -681,36 +697,8 @@ window.LUMIO_DATA = {
   }
 };
 
-
-// ── Correctifs RETEX juin 2026 ── injectés après LUMIO_DATA ──────────────
-if (!window.LUMIO_DATA.finder.folders.mission) { window.LUMIO_DATA.finder.folders.mission = {"title": "Mission — Dossier complet", "sidebar": "Mission", "icon": "🗂", "items": [{"kind": "folder", "name": "Acte 1 — Ancrage", "folder": "acte1"}, {"kind": "folder", "name": "Acte 2 — Entrée affaire", "folder": "acte2"}, {"kind": "folder", "name": "Acte 3 — Diagnostic", "folder": "acte3"}, {"kind": "folder", "name": "Acte 4 — Production", "folder": "acte4"}, {"kind": "folder", "name": "Acte 5 — Réflexion", "folder": "acte5"}, {"kind": "folder", "name": "Portraits équipe", "folder": "portraits"}]}; }
-if (!window.LUMIO_DATA.finder.order.includes('mission')) { var _o=window.LUMIO_DATA.finder.order; window.LUMIO_DATA.finder.order = ['guide','mission',..._o.filter(x=>x!=='guide')]; }
-if (!window.LUMIO_DATA.portraits || !window.LUMIO_DATA.portraits.length) { window.LUMIO_DATA.portraits = [{"key": "theo", "id": "portrait-theo", "title": "Théo Marczak — CEO", "tabTitle": "Théo Marczak", "favicon": "T", "faviconColor": "#0a3d62", "host": "lusinedigitale.fr", "url": "lusinedigitale.fr/portrait/theo-marczak", "file": "portraits/portrait_theo_marczak.html"}, {"key": "sonia", "id": "portrait-sonia", "title": "Sonia Ferracci — Dir. Marketing", "tabTitle": "Sonia Ferracci", "favicon": "S", "faviconColor": "#a02020", "host": "cbnews.fr", "url": "cbnews.fr/portrait/sonia-ferracci", "file": "portraits/portrait_sonia_ferracci.html"}, {"key": "camille", "id": "portrait-camille", "title": "Camille Ott — Partenariats B2B", "tabTitle": "Camille Ott", "favicon": "C", "faviconColor": "#1a6641", "host": "actionco.fr", "url": "actionco.fr/portrait/camille-ott", "file": "portraits/portrait_camille_ott.html"}, {"key": "yassine", "id": "portrait-yassine", "title": "Yassine Morel — Content Manager", "tabTitle": "Yassine Morel", "favicon": "Y", "faviconColor": "#e85d3a", "host": "maddyness.com", "url": "maddyness.com/portrait/yassine-morel", "file": "portraits/portrait_yassine_morel.html"}, {"key": "jakob", "id": "portrait-jakob", "title": "Jakob Rein — Northgate Capital", "tabTitle": "Jakob Rein", "favicon": "J", "faviconColor": "#1b3a6b", "host": "forbes.fr", "url": "forbes.fr/portrait/jakob-rein", "file": "portraits/portrait_jakob_rein.html"}]; }
-if (!window.LUMIO_DATA.desktopIcons) { window.LUMIO_DATA.desktopIcons = [{"app": "finder", "folder": "mission", "label": "Mission", "kind": "folder"}, {"app": "finder", "folder": "portraits", "label": "Portraits équipe", "kind": "folder"}, {"app": "mail", "label": "Mail", "kind": "app"}, {"app": "slack", "label": "Slack", "kind": "app"}, {"app": "notepad", "label": "Mes notes.txt", "kind": "app"}]; }
-if (!window.LUMIO_DATA.voiceMemos || !window.LUMIO_DATA.voiceMemos.length) { window.LUMIO_DATA.voiceMemos = [{"title": "Débrief RDV — partenaire stratégique", "author": "Camille Ott", "role": "Responsable partenariats B2B", "date": "Mars 2025", "context": "mémo dicté après réunion", "durationSec": 44, "transcript": "Réunion ce matin avec le partenaire clé. Le message principal : ils veulent avancer, mais pas sans voir la certification MDR progresser. Côté budget, la fourchette est réaliste — ils sont prêts à discuter. Ce qui bloque, c'est la souveraineté des données : hébergement France, audit annuel, accès self-service. Je leur ai dit qu'on pouvait s'engager sur ce point d'ici fin mars. À valider avec Théo avant que je confirme."}, {"title": "Note terrain — signaux B2B semaine", "author": "Camille Ott", "role": "Responsable partenariats B2B", "date": "Avril 2025", "context": "mémo dicté en déplacement", "durationSec": 36, "transcript": "Trois signaux forts cette semaine. Un : les DSI bloquent systématiquement sur RGPD dès qu'on parle de wearable — sans hébergement local certifié, on ne passe pas. Deux : le sujet est remonté au niveau comité de direction dans deux entreprises sur trois — la décision n'est plus RH, elle est stratégique. Trois : les mutuelles commencent à nous solliciter directement pour des offres packagées. C'est un canal qu'on n'avait pas prévu et qui mérite qu'on y consacre du temps."}]; }
-
 window.PAC_CONFIG = {
   "bloc": "bc2",
-  accroche_namescreen: {
-    "subtitle": "Cadrer le projet digital",
-    "role": "consultant·e digital externe",
-    "intro": "Tu es {{STUDENT}}, consultant·e digital chez Lumio Health pour cadrer le projet Lumio Pulse — une plateforme B2B de gestion du stress. Besoins, périmètre, budget, équipe, planning, cahier des charges : tu produis le cadrage du projet digital (E2) que Sonia Ferracci portera en interne.",
-    "ratio_label": "3 semaines dans la vraie vie",
-    "regles": [
-      {
-        "ico": "📄",
-        "txt": "Tout ce que tu sais, c'est dans les documents de cadrage du poste de mission."
-      },
-      {
-        "ico": "🤐",
-        "txt": "Le jury teste la cohérence budget/périmètre/planning et la qualité de ton cahier des charges."
-      },
-      {
-        "ico": "💬",
-        "txt": "Quand tu as une hypothèse solide → Slack → ta commanditaire. Sa réaction débloque la suite."
-      }
-    ]
-  },
   "titre": "Elaborer un projet digital au service d'un commanditaire",
   "epreuve": "E2. Cadrage d'un projet digital",
   "deadline": "14 mars 2025 · 18h00",
@@ -918,3 +906,10 @@ window.PAC_CONFIG = {
 };
 // Alias de compatibilité
 window.PASS_CONFIG = window.PAC_CONFIG;
+
+// [PATCH] Correction bug #1 — voiceMemos fallback pour app-voice.jsx
+// Ces PAC n'utilisent pas l'app Mémos vocaux comme source narrative principale
+// → tableau vide pour éviter le crash au chargement
+if (window.LUMIO_DATA && !window.LUMIO_DATA.voiceMemos && !window.LUMIO_DATA.camilleVerbatims) {
+  window.LUMIO_DATA.voiceMemos = [];
+}
