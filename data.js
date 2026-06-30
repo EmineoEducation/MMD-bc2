@@ -694,7 +694,36 @@ window.LUMIO_DATA = {
     "headline": "Stress en entreprise : le marché des plateformes de monitoring explose, et les géants tech américains s'y engouffrent",
     "chapeau": "Microsoft, Salesforce et trois scale-ups européennes ont annoncé cette semaine des investissements massifs dans les outils digitaux de gestion du bien-être salarié. Pendant que les acteurs français tergiversent, la fenêtre de leadership se referme à grande vitesse. Les directions des ressources humaines, elles, n'attendent plus.",
     "body": "Le cabinet Gartner l'anticipait dès 2023 : 2025 serait l'année de la consolidation du marché des plateformes de monitoring du stress et de la santé mentale en entreprise. Force est de constater que la prédiction se vérifie avec une brutalité que peu d'observateurs avaient anticipée. En l'espace de six semaines, trois opérations majeures ont redessiné le paysage concurrentiel européen. L'allemand Humanoo vient de lever 40 millions d'euros en série B, tandis que la britannique Thrive at Work a signé un partenariat exclusif avec Workday pour intégrer ses modules directement dans les SIRH de 8 000 entreprises clientes. Côté réglementaire, la pression s'intensifie également : la directive européenne sur la santé psychologique au travail, dont la transposition en droit français est attendue avant fin 2025, contraint désormais les entreprises de plus de 250 salariés à produire des indicateurs mesurables de prévention des risques psychosociaux. « Les DRH que nous accompagnons ne cherchent plus à être convaincus, ils cherchent un outil opérationnel, conforme RGPD, déployable en moins de trois mois », confie Laure Steinberg, associée chez Mercer France. Dans ce contexte, les acteurs qui ne disposent pas d'une plateforme documentée, certifiée et prête à l'intégration risquent tout simplement d'être écartés des appels d'offres dès le second semestre."
-  }
+  },
+  "voiceMemos": [
+    {
+      "title": "Retour terrain — ce que les mutuelles attendent vraiment",
+      "author": "Camille Ott",
+      "role": "Responsable partenariats B2B",
+      "date": "12 mars 2025",
+      "context": "mémo dicté après rendez-vous prospect",
+      "durationSec": 46,
+      "transcript": "Je sors de chez Malakoff Humanis. Ils sont intéressés par Pulse, mais leur priorité c'est l'interopérabilité. Ils veulent une API qui se branche directement sur leur SIRH existant — pas un outil de plus à côté. Leur DSI m'a posé trois questions : hébergement HDS, latence de synchronisation, et traçabilité RGPD des données agrégées. Tant qu'on n'a pas de réponse technique documentée sur ces trois points, on ne franchira pas leur comité d'achat. C'est la même chose chez les deux autres grands comptes que j'ai vus cette semaine. À remonter à Sonia pour le cadrage."
+    },
+    {
+      "title": "Alerte personas — on part sur du déclaratif, pas du terrain",
+      "author": "Yassine Morel",
+      "role": "Content Manager",
+      "date": "14 mars 2025",
+      "context": "mémo dicté entre deux réunions",
+      "durationSec": 38,
+      "transcript": "J'ai relu les personas draft qu'on a fait circuler. Problème : c'est du déclaratif pur. On a inventé des profils utilisateurs sans avoir interrogé un seul DRH en vrai. Le persona RH grand compte, par exemple — on lui attribue un besoin de reporting mensuel alors que tous les retours terrain de Camille disent le contraire, ils veulent du temps réel. Si on cadre Pulse sur des personas fictifs, on va designer une plateforme pour personne. Il faut au minimum trois entretiens utilisateurs avant de valider quoi que ce soit."
+    },
+    {
+      "title": "Point calendrier — ce que Northgate attend au CODIR",
+      "author": "Sonia Ferracci",
+      "role": "Directrice Marketing",
+      "date": "15 mars 2025",
+      "context": "mémo vocal rapide depuis le bureau",
+      "durationSec": 42,
+      "transcript": "Petit point sur le calendrier. Jakob veut un dossier de cadrage complet pour le CODIR dans six semaines. Complet, ça veut dire : périmètre fonctionnel, estimation budgétaire, planning macro, et analyse de risques. Théo m'a confirmé ce matin qu'il ne présentera rien à Northgate sans un livrable structuré et chiffré. On n'a pas le luxe de faire trois itérations. Le cadrage doit être bon du premier coup. Si tu identifies des arbitrages à faire sur le périmètre, remonte-les maintenant, pas dans quatre semaines."
+    }
+  ]
 };
 
 window.PAC_CONFIG = {
