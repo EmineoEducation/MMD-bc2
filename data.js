@@ -1069,3 +1069,19 @@ window.PASS_CONFIG = window.PAC_CONFIG;
 };
 })();
 // === [Audit MMD] fin ===
+
+// === [Carte portfolio] — 05/08/2026 · contenu propre au bloc, ajout non destructif ===
+(function () {
+  var c = window.PAC_CONFIG || window.PASS_CONFIG;
+  if (!c) return;
+  c.portfolio = {
+    missionTitre: "Cadrer une plateforme digitale avant le premier développement",
+    miseEnSituation: "Le projet de plateforme B2B de gestion du stress doit passer de l'intention au cahier des charges : périmètre flou, ressources internes limitées, prestataires à sélectionner, et une exigence d'accessibilité qui n'a jamais été chiffrée dans les projets précédents.",
+    choix: "Un cadrage qui fige d'abord le périmètre et les critères de réussite, puis en déduit le budget, l'équipe et le calendrier — l'accessibilité étant inscrite dans les spécifications et le backlog dès le départ, non ajoutée en fin de projet.",
+    justification: "Chiffrer avant d'avoir défini le périmètre produit des budgets invalidés dès la première réunion de cadrage ; inscrire l'accessibilité dans les spécifications initiales coûte une fraction d'une mise en conformité après développement.",
+    imageSrc: ""
+  };
+  window.PAC_CONFIG = c;
+  window.PASS_CONFIG = c;
+})();
+// === [Carte portfolio] fin ===
