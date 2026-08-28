@@ -728,6 +728,7 @@ window.LUMIO_DATA = {
 
 window.PAC_CONFIG = {
   "bloc": "bc2",
+  "titreCode": "MMD",
   accroche_namescreen: {
     "subtitle": "Cadrer le projet digital",
     "role": "consultant·e digital externe",
